@@ -1,0 +1,2 @@
+# paintingbrighton.com
+paintingbrighton.com
