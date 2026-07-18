@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://paintingbrighton.com/</loc>
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
+    <image:image>
+      <image:loc>https://paintingbrighton.com/images/brighton-colorado-painter-logo.png</image:loc>
+      <image:title>Painting Brighton Colorado Logo</image:title>
+      <image:caption>Painting Brighton — Brighton, Colorado's trusted painting contractor</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://paintingbrighton.com/images/brighton-painting.jpeg</image:loc>
+      <image:title>Fresh exterior repaint in Brighton Colorado</image:title>
+      <image:caption>Freshly painted Brighton CO home with clean trim work</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://paintingbrighton.com/images/brighton-colorado-house-painter.jpeg</image:loc>
+      <image:title>Brighton Colorado house painter</image:title>
+      <image:caption>Brighton house painter prepping a residential exterior</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://paintingbrighton.com/images/brighton-co-painter.jpg</image:loc>
+      <image:title>Brighton CO painter at work</image:title>
+      <image:caption>Brighton painter completing an exterior repaint</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://paintingbrighton.com/images/painter-brighton-co.jpg</image:loc>
+      <image:title>Painter in Brighton Colorado</image:title>
+      <image:caption>Brighton Colorado painter finishing interior work</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://paintingbrighton.com/images/brighton-painting-contractor.jpg</image:loc>
+      <image:title>Brighton painting contractor</image:title>
+      <image:caption>Brighton Colorado painting contractor prepping surfaces for repaint</image:caption>
+    </image:image>
+  </url>
+</urlset>
