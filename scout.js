@@ -121,7 +121,7 @@
 
   function el(h) { var d = document.createElement('div'); d.innerHTML = h.trim(); return d.firstChild; }
 
-  var launch = el('<div class="sc-launch"><button class="sc-btn" id="scBtn" aria-label="Chat with Scout, our shop dog" aria-expanded="false">' + dog('') + '</button></div>');
+  var launch = el('<div class="sc-launch"><button class="sc-btn" id="scBtn" aria-label="Chat with Scout, our shop dog" aria-expanded="false"><span aria-hidden="true">' + dog('') + '</span></button></div>');
   document.body.appendChild(launch);
   var dock = el('<div class="sc-dock">' +
     '<button data-mode="quote"><span class="mini">' + dog('') + '</span>Quick quote</button>' +
