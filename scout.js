@@ -193,7 +193,7 @@
     [/\\b(wind|windy|dust|gust|open|plains|exposed)\\b/i, 'Different from the foothills. Out here it blows steadily for hours rather than gusting, which skins a coating faster than the manufacturer intended and drives agricultural dust straight into a wet film. We move to a sheltered elevation, switch to brush and roller, or stop for the day. It occasionally costs a day and it is always the right call.'],
     [/\\b(hoa|covenant|approval|palette|architectural|board)\\b/i, 'Common in Brighton Crossing, Prairie Center and most of Todd Creek, and some communities want approval even for a similar shade. Check the covenants before you fall in love with a color. We prepare samples and the submission, and boards move faster than people expect when the paperwork arrives complete.'],
     [/\\b(hardboard|masonite|siding|swollen|soft|bottom edge|cut end)\\b/i, 'Classic finding on 1990s and 2000s corridor housing. Swollen soft bottom edges mean the hardboard is taking on water, usually because the cut ends were never sealed. Failed sections get replaced and every cut end sealed before coating; paint over a swollen board is a cosmetic delay.'],
-    [/\\b(cost|price|how much|expensive|quote|budget)\\b/i, 'Published 2026 Front Range figures: exteriors roughly $1.55 to $4.10 a square foot, interiors about $1.50 to $3.50, cabinets $2,000 to $8,000 a kitchen. Out here hail repair and the state of chalked builder paint move it more than square footage. Estimates are free, and the 25% off labor runs through October 31. <a href="/painting-cost-brighton-co/">Breakdown</a>.'],
+    [/\\b(cost|price|how much|expensive|quote|budget)\\b/i, 'Angi’s 2026 Denver cost data: exteriors roughly $1.55 to $4.10 a square foot, interiors about $2 to $6, cabinets about $30 to $60 per linear foot. Out here hail repair and the state of chalked builder paint move it more than square footage. Estimates are free, and the 25% off labor runs through November 15. <a href="/painting-cost-brighton-co/">Breakdown</a>.'],
     [/\\b(cheap|cheaper|lowest|compare|bid.*(low|differ)|why.*(difference|gap))\\b/i, 'Ask every bidder five things in writing: the insurance certificate, the prep itemized by surface, the exact product line and sheen, the coat count with primer separate, and whether they walked all four elevations for hail. The gap between quotes nearly always sits in one of those five.'],
     [/\\b(fence|linear|perimeter|acreage|long run)\\b/i, 'Fences out here are a volume question because the lots are bigger. Three things to settle before you collect quotes: one side or both, which roughly doubles it; solid or semi-transparent, and on fencing we usually push solid; and whether failed pickets and leaning posts are in scope. All three move the number a lot.'],
     [/\\b(deck|stain|seal|railing|pergola)\\b/i, 'Pour a cup of water on the boards. Beads means the seal is holding; soaks in means it is time. Clean, brighten to put the pH back, sand where the grain raised, then seal. Stain rather than paint on anything horizontal. Open-exposure decks out here often need attention every two to three years since nothing shades them.'],
@@ -386,7 +386,7 @@
     prog(.9);
     var c = Q.c || 1, z = Q.z || 1, lo, hi;
     if (Q.t === 'ext') { lo = Q.sq * 1.55 * (Q.h || 1); hi = Q.sq * 4.10 * (Q.h || 1); }
-    else if (Q.t === 'int') { lo = Q.sq * 1.50; hi = Q.sq * 3.50; }
+    else if (Q.t === 'int') { lo = Q.sq * 2.00; hi = Q.sq * 6.00; }
     else if (Q.t === 'cab') { lo = 1800 + (Q.d - 20) * 62; hi = 3600 + (Q.d - 20) * 126; }
     else if (Q.t === 'deck') { lo = Q.sq * 2.10; hi = Q.sq * 4.60; }
     else { lo = 0; hi = 0; }
@@ -402,7 +402,7 @@
         '<span class="ln"><span>Scope</span><span>' + (answers.size || answers.scope || '') + '</span></span>' +
         '<span class="ln"><span>Region</span><span>' + (answers.region || '') + '</span></span>' +
         '<span class="ln"><span>Ticket</span><span>' + Q.ticket + '</span></span>' +
-        '<small>Published 2026 Front Range range for this scope. With 25% off labor on projects booked by October 31, 2026, most of this scope lands around <strong>$' + lod.toLocaleString() + ' - $' + hid.toLocaleString() + '</strong>. Paint and materials are not included in the discount.</small></div>');
+        '<small>Published 2026 Front Range range for this scope. With 25% off labor on projects booked by November 15, 2026, most of this scope lands around <strong>$' + lod.toLocaleString() + ' - $' + hid.toLocaleString() + '</strong>. Paint and materials are not included in the discount.</small></div>');
     } else {
       say('<div class="sc-ticket"><b>Walkthrough first</b><span class="ln"><span>Project</span><span>' + (answers.project || '') + '</span></span><span class="ln"><span>Ticket</span><span>' + Q.ticket + '</span></span><small>Commercial scopes get measured on site so the bid is line-item accurate rather than a guess.</small></div>');
     }
