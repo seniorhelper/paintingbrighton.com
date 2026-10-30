@@ -13,7 +13,7 @@
     logo: "/images/proposal-logo.jpg",
     warranty: "5-year workmanship warranty",
     promoPct: 25,
-    promoLabel: "October booking discount (labor)",
+    promoLabel: "Winter booking discount (labor)",
     depositPct: 50
   };
 

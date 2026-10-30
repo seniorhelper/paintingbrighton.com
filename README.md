@@ -1,2 +1,1 @@
-# paintingbrighton.com
-paintingbrighton.com
+Static site.
