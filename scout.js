@@ -113,8 +113,8 @@
     '.sc-ticket .ln:last-of-type{border-bottom:0}',
     '.sc-ticket small{display:block;margin-top:8px;color:rgba(255,255,255,.82);font-size:.82rem}',
     '@media (max-width:640px){.sc-panel{right:6px;left:6px;width:auto;bottom:74px;top:60px;height:auto;max-height:none}',
-    '.sc-launch{right:4px;bottom:74px}.sc-btn{width:104px;height:120px}.sc-tip{font-size:.84rem;max-width:176px;margin-right:12px}',
-    '.sc-dock{top:auto;bottom:212px;transform:none}.sc-dock button{padding:10px 10px 10px 8px;font-size:.74rem}.sc-dock .mini{width:24px;height:28px}}',
+    '.sc-launch{right:4px;bottom:74px}.sc-btn{width:72px;height:84px}.sc-tip{font-size:.78rem;max-width:150px;margin-right:8px}',
+    '.sc-dock{display:none}}',
     '@media (prefers-reduced-motion:reduce){.sc-ear,.sc-tail,.sc-tongue,.sc-bark,.sc-led{animation:none}}'
   ].join('');
   document.head.appendChild(css);
