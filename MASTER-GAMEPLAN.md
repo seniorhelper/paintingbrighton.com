@@ -9,6 +9,9 @@ Brand: Painter Hotline, Brighton CO (trade name of Search Converts LLC), 720-208
 - Lighthouse mobile home (before push): Performance 100, Accessibility 97 (contrast on the estimate-type legend, hint and footer credit: fixed in this push), Best Practices 100, SEO 100.
 - The site already ranks on page 1 for "painters brighton co" (position 10 in a clean browser, 2026-11-08). That is the one painting head term the network holds today.
 
+## Real search data
+Search Console, last 28 days to Nov 6 (read 2026-11-08): 1 click, 452 impressions, average position 21.8 (best of the four). Top impression queries: basement finish brighton (39), cabinet painting near me (17), lp siding brighton (17), painting hardie board (17), painters brighton (17), painters brighton co (16), brighton commercial painting (13). Read: the site is seen but not trusted; trust signals (GBP, reviews, local links) come before more pages.
+
 ## Keyword targets
 | Term | Owner page | Real SERP 2026-11-08 |
 |---|---|---|
