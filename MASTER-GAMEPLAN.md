@@ -39,3 +39,7 @@ Our edge: hail documentation process, new-build repaint timing, HOA packet prep,
 3. Permits: the city's "Do I Need a Building Permit?" PDF returned 404 tonight; call 303-655-2017 or find the current document before any permit statement goes on a page.
 4. Hail page: add insurer-first guidance only from a real source (Colorado DORA Division of Insurance consumer pages), not contractor blogs.
 5. HOA page: add a neutral approval checklist and link to each HOA's own documents; never invent HOA rules.
+
+## 2026-11-10 (overnight, branch seo-leads-2026-11-10, not pushed)
+- No new page: the site is already dense and a basement-finish page would be thin. Instead /basement-painting-brighton-co/ got a ~550-word section for people finishing a basement (GSC "basement finish brighton" 46 impressions, pos 22.5): stage-by-stage table of where painting fits in a basement finish, how to finish and paint egress window openings (drywall returns vs wood jambs, solid sills), and what the finisher should hand over. New FAQ added (visible + FAQPage). Title now "Basement Painting in Brighton, CO | Finishing & New Drywall"; meta description updated; dateModified/Updated 2026-11-10; sitemap + llms.txt updated.
+- No new statistics were added, so no new sources. States that the company does not frame, hang drywall or wire.
